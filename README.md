@@ -1,7 +1,7 @@
 # SceneKitDSL
 Swift DSL for SceneKit
 
-See demo project RxSpriteGame (https://github.com/maxvol/DSLSceneGame) for reference.
+See demo project DSLSceneGame (https://github.com/maxvol/DSLSceneGame) for reference.
 
 Build scene in a declarative way
 ```swift
