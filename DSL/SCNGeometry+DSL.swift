@@ -16,4 +16,8 @@ extension SCNGeometry {
         return geometry
     }
     
+    public func apply(_ closure: (SCNGeometry) -> Void) {
+        closure(self)
+    }
+    
 }

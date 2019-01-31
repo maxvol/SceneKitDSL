@@ -10,10 +10,14 @@ import SceneKit
 
 extension SCNMaterial {
     
-    public static func shapeNode(apply closure: (SCNMaterial) -> Void) -> SCNMaterial {
+    public static func material(apply closure: (SCNMaterial) -> Void) -> SCNMaterial {
         let material = SCNMaterial()
         closure(material)
         return material
+    }
+    
+    public func apply(_ closure: (SCNMaterial) -> Void) {
+        closure(self)
     }
     
 }
