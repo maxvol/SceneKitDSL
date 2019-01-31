@@ -3,7 +3,7 @@ Swift DSL for SceneKit
 
 See demo project DSLSceneGame (https://github.com/maxvol/DSLSceneGame) for reference.
 
-Build scene in a structured way
+Build scene in a hierarchically structured way
 ```swift
 scene.rootNode.apply {
     // create and add a camera to the scene
