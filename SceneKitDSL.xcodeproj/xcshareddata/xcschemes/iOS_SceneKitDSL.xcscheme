@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94D5E35A22023EC300E24B9A"
-               BuildableName = "SceneKitDSL.framework"
-               BlueprintName = "SceneKitDSL"
+               BlueprintIdentifier = "94B74AE722071169002F98DF"
+               BuildableName = "iOS_SceneKitDSL.framework"
+               BlueprintName = "iOS_SceneKitDSL"
                ReferencedContainer = "container:SceneKitDSL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94D5E36322023EC400E24B9A"
-               BuildableName = "SceneKitDSLTests.xctest"
-               BlueprintName = "SceneKitDSLTests"
+               BlueprintIdentifier = "94B74AEF2207116A002F98DF"
+               BuildableName = "iOS_SceneKitDSLTests.xctest"
+               BlueprintName = "iOS_SceneKitDSLTests"
                ReferencedContainer = "container:SceneKitDSL.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94D5E35A22023EC300E24B9A"
-            BuildableName = "SceneKitDSL.framework"
-            BlueprintName = "SceneKitDSL"
+            BlueprintIdentifier = "94B74AE722071169002F98DF"
+            BuildableName = "iOS_SceneKitDSL.framework"
+            BlueprintName = "iOS_SceneKitDSL"
             ReferencedContainer = "container:SceneKitDSL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94D5E35A22023EC300E24B9A"
-            BuildableName = "SceneKitDSL.framework"
-            BlueprintName = "SceneKitDSL"
+            BlueprintIdentifier = "94B74AE722071169002F98DF"
+            BuildableName = "iOS_SceneKitDSL.framework"
+            BlueprintName = "iOS_SceneKitDSL"
             ReferencedContainer = "container:SceneKitDSL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94D5E35A22023EC300E24B9A"
-            BuildableName = "SceneKitDSL.framework"
-            BlueprintName = "SceneKitDSL"
+            BlueprintIdentifier = "94B74AE722071169002F98DF"
+            BuildableName = "iOS_SceneKitDSL.framework"
+            BlueprintName = "iOS_SceneKitDSL"
             ReferencedContainer = "container:SceneKitDSL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

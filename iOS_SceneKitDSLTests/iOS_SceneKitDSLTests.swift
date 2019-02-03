@@ -1,15 +1,15 @@
 //
-//  SceneKitDSLTests.swift
-//  SceneKitDSLTests
+//  iOS_SceneKitDSLTests.swift
+//  iOS_SceneKitDSLTests
 //
-//  Created by Maxim Volgin on 30/01/2019.
+//  Created by Maxim Volgin on 03/02/2019.
 //  Copyright © 2019 Maxim Volgin. All rights reserved.
 //
 
 import XCTest
-@testable import SceneKitDSL
+@testable import iOS_SceneKitDSL
 
-class SceneKitDSLTests: XCTestCase {
+class iOS_SceneKitDSLTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

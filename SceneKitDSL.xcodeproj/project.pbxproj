@@ -7,24 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94A78B5C22037B550037D37C /* SCNScene+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5B22037B550037D37C /* SCNScene+DSL.swift */; };
-		94A78B5E22037BC00037D37C /* SCNCamera+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5D22037BC00037D37C /* SCNCamera+DSL.swift */; };
-		94A78B6022037BCB0037D37C /* SCNLight+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5F22037BCB0037D37C /* SCNLight+DSL.swift */; };
-		94D5E36522023EC400E24B9A /* SceneKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5E35B22023EC300E24B9A /* SceneKitDSL.framework */; };
-		94D5E36A22023EC400E24B9A /* SceneKitDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E36922023EC400E24B9A /* SceneKitDSLTests.swift */; };
-		94D5E36C22023EC400E24B9A /* SceneKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D5E35E22023EC300E24B9A /* SceneKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94D5E3D62202C34C00E24B9A /* SCNNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D52202C34C00E24B9A /* SCNNode+DSL.swift */; };
-		94D5E3D82202C3E300E24B9A /* SCNGeometry+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D72202C3E300E24B9A /* SCNGeometry+DSL.swift */; };
-		94D5E3DA2202C3EE00E24B9A /* SCNMaterial+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D92202C3EE00E24B9A /* SCNMaterial+DSL.swift */; };
+		94B74AF12207116A002F98DF /* iOS_SceneKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B74AE822071169002F98DF /* iOS_SceneKitDSL.framework */; };
+		94B74AF62207116A002F98DF /* iOS_SceneKitDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74AF52207116A002F98DF /* iOS_SceneKitDSLTests.swift */; };
+		94B74AF82207116A002F98DF /* iOS_SceneKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B74AEA2207116A002F98DF /* iOS_SceneKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B74B0D2207118A002F98DF /* macOS_SceneKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B74B0422071189002F98DF /* macOS_SceneKitDSL.framework */; };
+		94B74B122207118A002F98DF /* macOS_SceneKitDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B112207118A002F98DF /* macOS_SceneKitDSLTests.swift */; };
+		94B74B142207118A002F98DF /* macOS_SceneKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B74B062207118A002F98DF /* macOS_SceneKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B74B5C22071318002F98DF /* SCNScene+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5B22037B550037D37C /* SCNScene+DSL.swift */; };
+		94B74B5D22071318002F98DF /* SCNNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D52202C34C00E24B9A /* SCNNode+DSL.swift */; };
+		94B74B5E22071318002F98DF /* SCNMaterial+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D92202C3EE00E24B9A /* SCNMaterial+DSL.swift */; };
+		94B74B5F22071318002F98DF /* SCNGeometry+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D72202C3E300E24B9A /* SCNGeometry+DSL.swift */; };
+		94B74B6022071318002F98DF /* SCNCamera+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5D22037BC00037D37C /* SCNCamera+DSL.swift */; };
+		94B74B6122071318002F98DF /* SCNLight+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5F22037BCB0037D37C /* SCNLight+DSL.swift */; };
+		94B74B622207131A002F98DF /* SCNScene+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5B22037B550037D37C /* SCNScene+DSL.swift */; };
+		94B74B632207131B002F98DF /* SCNNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D52202C34C00E24B9A /* SCNNode+DSL.swift */; };
+		94B74B642207131B002F98DF /* SCNMaterial+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D92202C3EE00E24B9A /* SCNMaterial+DSL.swift */; };
+		94B74B652207131B002F98DF /* SCNGeometry+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D72202C3E300E24B9A /* SCNGeometry+DSL.swift */; };
+		94B74B662207131B002F98DF /* SCNCamera+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5D22037BC00037D37C /* SCNCamera+DSL.swift */; };
+		94B74B672207131B002F98DF /* SCNLight+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5F22037BCB0037D37C /* SCNLight+DSL.swift */; };
+		94B74B682207131C002F98DF /* SCNScene+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5B22037B550037D37C /* SCNScene+DSL.swift */; };
+		94B74B692207131C002F98DF /* SCNNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D52202C34C00E24B9A /* SCNNode+DSL.swift */; };
+		94B74B6A2207131C002F98DF /* SCNMaterial+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D92202C3EE00E24B9A /* SCNMaterial+DSL.swift */; };
+		94B74B6B2207131C002F98DF /* SCNGeometry+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3D72202C3E300E24B9A /* SCNGeometry+DSL.swift */; };
+		94B74B6C2207131C002F98DF /* SCNCamera+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5D22037BC00037D37C /* SCNCamera+DSL.swift */; };
+		94B74B6D2207131C002F98DF /* SCNLight+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A78B5F22037BCB0037D37C /* SCNLight+DSL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94D5E36622023EC400E24B9A /* PBXContainerItemProxy */ = {
+		94B74AF22207116A002F98DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94D5E35222023EC300E24B9A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94D5E35A22023EC300E24B9A;
-			remoteInfo = SceneKitDSL;
+			remoteGlobalIDString = 94B74AE722071169002F98DF;
+			remoteInfo = iOS_SceneKitDSL;
+		};
+		94B74B0E2207118A002F98DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D5E35222023EC300E24B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B74B0322071189002F98DF;
+			remoteInfo = macOS_SceneKitDSL;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -33,43 +55,102 @@
 		94A78B5B22037B550037D37C /* SCNScene+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNScene+DSL.swift"; sourceTree = "<group>"; };
 		94A78B5D22037BC00037D37C /* SCNCamera+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNCamera+DSL.swift"; sourceTree = "<group>"; };
 		94A78B5F22037BCB0037D37C /* SCNLight+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNLight+DSL.swift"; sourceTree = "<group>"; };
-		94D5E35B22023EC300E24B9A /* SceneKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SceneKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94D5E35E22023EC300E24B9A /* SceneKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneKitDSL.h; sourceTree = "<group>"; };
-		94D5E35F22023EC300E24B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94D5E36422023EC400E24B9A /* SceneKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		94D5E36922023EC400E24B9A /* SceneKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitDSLTests.swift; sourceTree = "<group>"; };
-		94D5E36B22023EC400E24B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74AE822071169002F98DF /* iOS_SceneKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_SceneKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74AEA2207116A002F98DF /* iOS_SceneKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_SceneKitDSL.h; sourceTree = "<group>"; };
+		94B74AEB2207116A002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74AF02207116A002F98DF /* iOS_SceneKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_SceneKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74AF52207116A002F98DF /* iOS_SceneKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_SceneKitDSLTests.swift; sourceTree = "<group>"; };
+		94B74AF72207116A002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74B0422071189002F98DF /* macOS_SceneKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = macOS_SceneKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74B062207118A002F98DF /* macOS_SceneKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macOS_SceneKitDSL.h; sourceTree = "<group>"; };
+		94B74B072207118A002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74B0C2207118A002F98DF /* macOS_SceneKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOS_SceneKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74B112207118A002F98DF /* macOS_SceneKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_SceneKitDSLTests.swift; sourceTree = "<group>"; };
+		94B74B132207118A002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D5E3D52202C34C00E24B9A /* SCNNode+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+DSL.swift"; sourceTree = "<group>"; };
 		94D5E3D72202C3E300E24B9A /* SCNGeometry+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNGeometry+DSL.swift"; sourceTree = "<group>"; };
 		94D5E3D92202C3EE00E24B9A /* SCNMaterial+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNMaterial+DSL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		94D5E35822023EC300E24B9A /* Frameworks */ = {
+		94B74AE522071169002F98DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94D5E36122023EC400E24B9A /* Frameworks */ = {
+		94B74AED2207116A002F98DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E36522023EC400E24B9A /* SceneKitDSL.framework in Frameworks */,
+				94B74AF12207116A002F98DF /* iOS_SceneKitDSL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B0122071189002F98DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B092207118A002F98DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74B0D2207118A002F98DF /* macOS_SceneKitDSL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94B74AE92207116A002F98DF /* iOS_SceneKitDSL */ = {
+			isa = PBXGroup;
+			children = (
+				94B74AEA2207116A002F98DF /* iOS_SceneKitDSL.h */,
+				94B74AEB2207116A002F98DF /* Info.plist */,
+			);
+			path = iOS_SceneKitDSL;
+			sourceTree = "<group>";
+		};
+		94B74AF42207116A002F98DF /* iOS_SceneKitDSLTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B74AF52207116A002F98DF /* iOS_SceneKitDSLTests.swift */,
+				94B74AF72207116A002F98DF /* Info.plist */,
+			);
+			path = iOS_SceneKitDSLTests;
+			sourceTree = "<group>";
+		};
+		94B74B052207118A002F98DF /* macOS_SceneKitDSL */ = {
+			isa = PBXGroup;
+			children = (
+				94B74B062207118A002F98DF /* macOS_SceneKitDSL.h */,
+				94B74B072207118A002F98DF /* Info.plist */,
+			);
+			path = macOS_SceneKitDSL;
+			sourceTree = "<group>";
+		};
+		94B74B102207118A002F98DF /* macOS_SceneKitDSLTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B74B112207118A002F98DF /* macOS_SceneKitDSLTests.swift */,
+				94B74B132207118A002F98DF /* Info.plist */,
+			);
+			path = macOS_SceneKitDSLTests;
+			sourceTree = "<group>";
+		};
 		94D5E35122023EC300E24B9A = {
 			isa = PBXGroup;
 			children = (
 				94A78B5A22037A5C0037D37C /* README.md */,
 				94D5E3D42202C33100E24B9A /* DSL */,
-				94D5E35D22023EC300E24B9A /* SceneKitDSL */,
-				94D5E36822023EC400E24B9A /* SceneKitDSLTests */,
+				94B74AE92207116A002F98DF /* iOS_SceneKitDSL */,
+				94B74AF42207116A002F98DF /* iOS_SceneKitDSLTests */,
+				94B74B052207118A002F98DF /* macOS_SceneKitDSL */,
+				94B74B102207118A002F98DF /* macOS_SceneKitDSLTests */,
 				94D5E35C22023EC300E24B9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,28 +158,12 @@
 		94D5E35C22023EC300E24B9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94D5E35B22023EC300E24B9A /* SceneKitDSL.framework */,
-				94D5E36422023EC400E24B9A /* SceneKitDSLTests.xctest */,
+				94B74AE822071169002F98DF /* iOS_SceneKitDSL.framework */,
+				94B74AF02207116A002F98DF /* iOS_SceneKitDSLTests.xctest */,
+				94B74B0422071189002F98DF /* macOS_SceneKitDSL.framework */,
+				94B74B0C2207118A002F98DF /* macOS_SceneKitDSLTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		94D5E35D22023EC300E24B9A /* SceneKitDSL */ = {
-			isa = PBXGroup;
-			children = (
-				94D5E35E22023EC300E24B9A /* SceneKitDSL.h */,
-				94D5E35F22023EC300E24B9A /* Info.plist */,
-			);
-			path = SceneKitDSL;
-			sourceTree = "<group>";
-		};
-		94D5E36822023EC400E24B9A /* SceneKitDSLTests */ = {
-			isa = PBXGroup;
-			children = (
-				94D5E36922023EC400E24B9A /* SceneKitDSLTests.swift */,
-				94D5E36B22023EC400E24B9A /* Info.plist */,
-			);
-			path = SceneKitDSLTests;
 			sourceTree = "<group>";
 		};
 		94D5E3D42202C33100E24B9A /* DSL */ = {
@@ -117,51 +182,95 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		94D5E35622023EC300E24B9A /* Headers */ = {
+		94B74AE322071169002F98DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E36C22023EC400E24B9A /* SceneKitDSL.h in Headers */,
+				94B74AF82207116A002F98DF /* iOS_SceneKitDSL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74AFF22071189002F98DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74B142207118A002F98DF /* macOS_SceneKitDSL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		94D5E35A22023EC300E24B9A /* SceneKitDSL */ = {
+		94B74AE722071169002F98DF /* iOS_SceneKitDSL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94D5E36F22023EC400E24B9A /* Build configuration list for PBXNativeTarget "SceneKitDSL" */;
+			buildConfigurationList = 94B74AFD2207116A002F98DF /* Build configuration list for PBXNativeTarget "iOS_SceneKitDSL" */;
 			buildPhases = (
-				94D5E35622023EC300E24B9A /* Headers */,
-				94D5E35722023EC300E24B9A /* Sources */,
-				94D5E35822023EC300E24B9A /* Frameworks */,
-				94D5E35922023EC300E24B9A /* Resources */,
+				94B74AE322071169002F98DF /* Headers */,
+				94B74AE422071169002F98DF /* Sources */,
+				94B74AE522071169002F98DF /* Frameworks */,
+				94B74AE622071169002F98DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SceneKitDSL;
-			productName = SceneKitDSL;
-			productReference = 94D5E35B22023EC300E24B9A /* SceneKitDSL.framework */;
+			name = iOS_SceneKitDSL;
+			productName = iOS_SceneKitDSL;
+			productReference = 94B74AE822071169002F98DF /* iOS_SceneKitDSL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		94D5E36322023EC400E24B9A /* SceneKitDSLTests */ = {
+		94B74AEF2207116A002F98DF /* iOS_SceneKitDSLTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94D5E37222023EC400E24B9A /* Build configuration list for PBXNativeTarget "SceneKitDSLTests" */;
+			buildConfigurationList = 94B74AFE2207116A002F98DF /* Build configuration list for PBXNativeTarget "iOS_SceneKitDSLTests" */;
 			buildPhases = (
-				94D5E36022023EC400E24B9A /* Sources */,
-				94D5E36122023EC400E24B9A /* Frameworks */,
-				94D5E36222023EC400E24B9A /* Resources */,
+				94B74AEC2207116A002F98DF /* Sources */,
+				94B74AED2207116A002F98DF /* Frameworks */,
+				94B74AEE2207116A002F98DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94D5E36722023EC400E24B9A /* PBXTargetDependency */,
+				94B74AF32207116A002F98DF /* PBXTargetDependency */,
 			);
-			name = SceneKitDSLTests;
-			productName = SceneKitDSLTests;
-			productReference = 94D5E36422023EC400E24B9A /* SceneKitDSLTests.xctest */;
+			name = iOS_SceneKitDSLTests;
+			productName = iOS_SceneKitDSLTests;
+			productReference = 94B74AF02207116A002F98DF /* iOS_SceneKitDSLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94B74B0322071189002F98DF /* macOS_SceneKitDSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B74B152207118A002F98DF /* Build configuration list for PBXNativeTarget "macOS_SceneKitDSL" */;
+			buildPhases = (
+				94B74AFF22071189002F98DF /* Headers */,
+				94B74B0022071189002F98DF /* Sources */,
+				94B74B0122071189002F98DF /* Frameworks */,
+				94B74B0222071189002F98DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS_SceneKitDSL;
+			productName = macOS_SceneKitDSL;
+			productReference = 94B74B0422071189002F98DF /* macOS_SceneKitDSL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94B74B0B2207118A002F98DF /* macOS_SceneKitDSLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B74B182207118A002F98DF /* Build configuration list for PBXNativeTarget "macOS_SceneKitDSLTests" */;
+			buildPhases = (
+				94B74B082207118A002F98DF /* Sources */,
+				94B74B092207118A002F98DF /* Frameworks */,
+				94B74B0A2207118A002F98DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B74B0F2207118A002F98DF /* PBXTargetDependency */,
+			);
+			name = macOS_SceneKitDSLTests;
+			productName = macOS_SceneKitDSLTests;
+			productReference = 94B74B0C2207118A002F98DF /* macOS_SceneKitDSLTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -174,11 +283,16 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Maxim Volgin";
 				TargetAttributes = {
-					94D5E35A22023EC300E24B9A = {
+					94B74AE722071169002F98DF = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
 					};
-					94D5E36322023EC400E24B9A = {
+					94B74AEF2207116A002F98DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					94B74B0322071189002F98DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					94B74B0B2207118A002F98DF = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -195,21 +309,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94D5E35A22023EC300E24B9A /* SceneKitDSL */,
-				94D5E36322023EC400E24B9A /* SceneKitDSLTests */,
+				94B74AE722071169002F98DF /* iOS_SceneKitDSL */,
+				94B74AEF2207116A002F98DF /* iOS_SceneKitDSLTests */,
+				94B74B0322071189002F98DF /* macOS_SceneKitDSL */,
+				94B74B0B2207118A002F98DF /* macOS_SceneKitDSLTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		94D5E35922023EC300E24B9A /* Resources */ = {
+		94B74AE622071169002F98DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94D5E36222023EC400E24B9A /* Resources */ = {
+		94B74AEE2207116A002F98DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B0222071189002F98DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B0A2207118A002F98DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,38 +349,250 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		94D5E35722023EC300E24B9A /* Sources */ = {
+		94B74AE422071169002F98DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E3D82202C3E300E24B9A /* SCNGeometry+DSL.swift in Sources */,
-				94A78B5C22037B550037D37C /* SCNScene+DSL.swift in Sources */,
-				94A78B5E22037BC00037D37C /* SCNCamera+DSL.swift in Sources */,
-				94A78B6022037BCB0037D37C /* SCNLight+DSL.swift in Sources */,
-				94D5E3DA2202C3EE00E24B9A /* SCNMaterial+DSL.swift in Sources */,
-				94D5E3D62202C34C00E24B9A /* SCNNode+DSL.swift in Sources */,
+				94B74B5D22071318002F98DF /* SCNNode+DSL.swift in Sources */,
+				94B74B5E22071318002F98DF /* SCNMaterial+DSL.swift in Sources */,
+				94B74B6022071318002F98DF /* SCNCamera+DSL.swift in Sources */,
+				94B74B6122071318002F98DF /* SCNLight+DSL.swift in Sources */,
+				94B74B5F22071318002F98DF /* SCNGeometry+DSL.swift in Sources */,
+				94B74B5C22071318002F98DF /* SCNScene+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94D5E36022023EC400E24B9A /* Sources */ = {
+		94B74AEC2207116A002F98DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E36A22023EC400E24B9A /* SceneKitDSLTests.swift in Sources */,
+				94B74AF62207116A002F98DF /* iOS_SceneKitDSLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B0022071189002F98DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74B632207131B002F98DF /* SCNNode+DSL.swift in Sources */,
+				94B74B642207131B002F98DF /* SCNMaterial+DSL.swift in Sources */,
+				94B74B662207131B002F98DF /* SCNCamera+DSL.swift in Sources */,
+				94B74B672207131B002F98DF /* SCNLight+DSL.swift in Sources */,
+				94B74B652207131B002F98DF /* SCNGeometry+DSL.swift in Sources */,
+				94B74B622207131A002F98DF /* SCNScene+DSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B082207118A002F98DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74B692207131C002F98DF /* SCNNode+DSL.swift in Sources */,
+				94B74B6A2207131C002F98DF /* SCNMaterial+DSL.swift in Sources */,
+				94B74B6D2207131C002F98DF /* SCNLight+DSL.swift in Sources */,
+				94B74B6B2207131C002F98DF /* SCNGeometry+DSL.swift in Sources */,
+				94B74B122207118A002F98DF /* macOS_SceneKitDSLTests.swift in Sources */,
+				94B74B682207131C002F98DF /* SCNScene+DSL.swift in Sources */,
+				94B74B6C2207131C002F98DF /* SCNCamera+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		94D5E36722023EC400E24B9A /* PBXTargetDependency */ = {
+		94B74AF32207116A002F98DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94D5E35A22023EC300E24B9A /* SceneKitDSL */;
-			targetProxy = 94D5E36622023EC400E24B9A /* PBXContainerItemProxy */;
+			target = 94B74AE722071169002F98DF /* iOS_SceneKitDSL */;
+			targetProxy = 94B74AF22207116A002F98DF /* PBXContainerItemProxy */;
+		};
+		94B74B0F2207118A002F98DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B74B0322071189002F98DF /* macOS_SceneKitDSL */;
+			targetProxy = 94B74B0E2207118A002F98DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		94B74AF92207116A002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOS_SceneKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SceneKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94B74AFA2207116A002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOS_SceneKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SceneKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94B74AFB2207116A002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_SceneKitDSLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.iOS-SceneKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94B74AFC2207116A002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_SceneKitDSLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.iOS-SceneKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94B74B162207118A002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = macOS_SceneKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SceneKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		94B74B172207118A002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = macOS_SceneKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SceneKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		94B74B192207118A002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS_SceneKitDSLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.macOS-SceneKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		94B74B1A2207118A002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS_SceneKitDSLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.macOS-SceneKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		94D5E36D22023EC400E24B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -304,6 +646,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -362,6 +705,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -373,119 +717,50 @@
 			};
 			name = Release;
 		};
-		94D5E37022023EC400E24B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SceneKitDSL/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SceneKitDSL;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		94D5E37122023EC400E24B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SceneKitDSL/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SceneKitDSL;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		94D5E37322023EC400E24B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SceneKitDSLTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SceneKitDSLTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		94D5E37422023EC400E24B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SceneKitDSLTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SceneKitDSLTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		94B74AFD2207116A002F98DF /* Build configuration list for PBXNativeTarget "iOS_SceneKitDSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74AF92207116A002F98DF /* Debug */,
+				94B74AFA2207116A002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B74AFE2207116A002F98DF /* Build configuration list for PBXNativeTarget "iOS_SceneKitDSLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74AFB2207116A002F98DF /* Debug */,
+				94B74AFC2207116A002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B74B152207118A002F98DF /* Build configuration list for PBXNativeTarget "macOS_SceneKitDSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74B162207118A002F98DF /* Debug */,
+				94B74B172207118A002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B74B182207118A002F98DF /* Build configuration list for PBXNativeTarget "macOS_SceneKitDSLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74B192207118A002F98DF /* Debug */,
+				94B74B1A2207118A002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		94D5E35522023EC300E24B9A /* Build configuration list for PBXProject "SceneKitDSL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94D5E36D22023EC400E24B9A /* Debug */,
 				94D5E36E22023EC400E24B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94D5E36F22023EC400E24B9A /* Build configuration list for PBXNativeTarget "SceneKitDSL" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94D5E37022023EC400E24B9A /* Debug */,
-				94D5E37122023EC400E24B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94D5E37222023EC400E24B9A /* Build configuration list for PBXNativeTarget "SceneKitDSLTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94D5E37322023EC400E24B9A /* Debug */,
-				94D5E37422023EC400E24B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
