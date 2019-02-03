@@ -1,8 +1,10 @@
 # SceneKitDSL
 Swift DSL for SceneKit
 
-Build scene in a declarative way
-```
+See demo project DSLSceneGame (https://github.com/maxvol/DSLSceneGame) for reference.
+
+Build scene in a hierarchically structured way
+```swift
 scene.rootNode.apply {
     // create and add a camera to the scene
     $0.node {
@@ -29,7 +31,7 @@ scene.rootNode.apply {
 ```
 ...instead of
 
-```
+```swift
 // create and add a camera to the scene
 let cameraNode = SCNNode()
 cameraNode.camera = SCNCamera()
