@@ -57,5 +57,5 @@ scene.rootNode.addChildNode(ambientLightNode)
 
 Carthage setup -
 ```
-github "maxvol/SceneKitDSL" ~> 0.0.2
+github "maxvol/SceneKitDSL" ~> 0.0.4
 ```
