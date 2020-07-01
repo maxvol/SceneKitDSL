@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import iOS_SceneKitDSL
+// @testable import iOS_SceneKitDSL
 
 class iOS_SceneKitDSLTests: XCTestCase {
 
