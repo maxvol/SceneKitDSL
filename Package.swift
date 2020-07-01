@@ -15,6 +15,6 @@ let package = Package(
         .target(
             name: "SceneKitDSL",
             dependencies: [],
-            path: "SceneKitDSL")
+            path: ".")
     ]
 )
